@@ -38,7 +38,6 @@ android {
 }
 
 dependencies {
-    annotationProcessor 'com.alibaba:arouter-compiler:1.2.2'
 //    compile 'com.alibaba:arouter-annotation:1.0.6'
     compile project(':arouter-annotation')
     compile "com.android.support:support-v4:${SUPPORT_LIB_VERSION}"
